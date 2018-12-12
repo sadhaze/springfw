@@ -16,7 +16,7 @@ public class WebConfig extends WebMvcConfigurerAdapter{
     @Bean
     public InternalResourceViewResolver resolver(){
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
-        resolver.setPrefix("/");
+        resolver.setPrefix("/src/main/java/ru/edu/otus/webapp/");
         resolver.setSuffix(".jsp");
         return resolver;
     }
